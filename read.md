@@ -28,7 +28,7 @@ Then, you can use the command hbuana anywhere.
     hbuana -i [path_to_input_file] -o [path_to_output_directory]
 ```
 It only works when both of input file and output directory are specified.
-#### ROOT file -> pedestal picture (Cosmic.root -> xxx.png & result.root)
+#### ROOT file -> pedestal and dac pictures (Cosmic.root -> xxx.png & result.root)
 ```bash
     hbuana -p list.txt
     hbuana -d list.txt
