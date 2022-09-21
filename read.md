@@ -23,7 +23,11 @@ can use the following commend to put it in environment variables：
 ```bash
     source setup.sh
 ```
-Then, you can use the command hbuana anywhere.
+Then, you can use the command hbuana anywhere like this:
+```bash
+    hbuana -p list.txt
+```
+Here, p means pedestal, and the content of list.txt is the path of root files. After a long time, result.root and some pictures will be generated.
 
 
 
