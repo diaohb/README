@@ -2,8 +2,7 @@
 ## Author Zhen Wang (wangz1996@sjtu.edu.cn)
 
 ### Compile
-To compile the program, cmake 3.11 and gcc 6.2, and maybe some other softwares, are required. So if you are under the ihep server, it's
-convenient to use the following commend to configure environment variables:
+To compile the program, cmake 3.11 and gcc 6.2, and maybe some other softwares, are required. So if you are under the ihep server, using the following commend to configure environment variables will be convenient:
 ```bash
     export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
     alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
